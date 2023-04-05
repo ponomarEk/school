@@ -1,0 +1,23 @@
+.navbar {
+	width: 90%;
+	margin: 0 auto;
+}
+.list {
+	font-size: 20px;
+	display: flex;
+	gap: 30px;
+	padding: 12px;
+}
+.list_item {
+	list-style: none;
+}
+
+.list_link {
+	text-decoration: none;
+	color: #404be0;
+}
+
+.list_item:hover {
+	color: rgb(94, 22, 187);
+	transform: scale(1.1);
+}
