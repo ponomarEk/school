@@ -1,4 +1,3 @@
-// TODO: better it to do in .env file
 const API_URL = 'http://94.131.246.109:5555/v1/';
 const CLASS_KEY = 2;
 
