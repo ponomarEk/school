@@ -87,7 +87,7 @@ const AttendanceTable = () => {
       sx={{ height: '90vh', width: '90%', m: '0 auto' }}
     >
       <Table>
-        <TableHead lessons={lessons.data.Items} />
+        <TableHead lessons={lessons.data?.Items} />
         <TableBody onClick={handleTableClick}>
           {students.data?.Items.map((student) => (
             <TableRow key={student.Id}>
